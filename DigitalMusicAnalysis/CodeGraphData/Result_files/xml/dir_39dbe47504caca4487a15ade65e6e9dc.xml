@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_39dbe47504caca4487a15ade65e6e9dc" kind="dir">
+    <compoundname>C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis</compoundname>
+    <innerfile refid="_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <innerfile refid="_assembly_info_8cs">AssemblyInfo.cs</innerfile>
+    <innerfile refid="_main_window_8xaml_8cs">MainWindow.xaml.cs</innerfile>
+    <innerfile refid="music_note_8cs">musicNote.cs</innerfile>
+    <innerfile refid="note_graph_8cs">noteGraph.cs</innerfile>
+    <innerfile refid="timefreq_8cs">timefreq.cs</innerfile>
+    <innerfile refid="wavefile_8cs">wavefile.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/"/>
+  </compounddef>
+</doxygen>

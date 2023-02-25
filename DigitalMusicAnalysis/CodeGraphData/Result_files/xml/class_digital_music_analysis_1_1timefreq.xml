@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_digital_music_analysis_1_1timefreq" kind="class" prot="public">
+    <compoundname>DigitalMusicAnalysis::timefreq</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1timefreq_1a709f8f7907dae5421a55c78fcbfaad3c" prot="public" static="no" mutable="no">
+        <type>float[][]</type>
+        <definition>float [][] DigitalMusicAnalysis.timefreq.timeFreqData</definition>
+        <argsstring></argsstring>
+        <name>timeFreqData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/timefreq.cs" line="9" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/timefreq.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a17047d775d353b6f8301ff25f2ace1e5" compoundref="_main_window_8xaml_8cs" startline="309" endline="653">DigitalMusicAnalysis.MainWindow.onsetDetection</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1timefreq_1a2fcde97131a4d48b0de2012be0e5b442" compoundref="timefreq_8cs" startline="13" endline="54">DigitalMusicAnalysis.timefreq.timefreq</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1timefreq_1a215932d48d45df7fc737e8f97bcc82c2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DigitalMusicAnalysis.timefreq.wSamp</definition>
+        <argsstring></argsstring>
+        <name>wSamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/timefreq.cs" line="10" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/timefreq.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1timefreq_1ae020f6006f51161b77fb136a08ead192" compoundref="timefreq_8cs" startline="111" endline="155">DigitalMusicAnalysis.timefreq.fft</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1timefreq_1ad89a75aae1d648fd61ecc7794faaf03e" compoundref="timefreq_8cs" startline="56" endline="109">DigitalMusicAnalysis.timefreq.stft</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1timefreq_1a2fcde97131a4d48b0de2012be0e5b442" compoundref="timefreq_8cs" startline="13" endline="54">DigitalMusicAnalysis.timefreq.timefreq</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1timefreq_1a7d051c6404af538f57d2515cee408c51" prot="public" static="no" mutable="no">
+        <type>Complex[]</type>
+        <definition>Complex [] DigitalMusicAnalysis.timefreq.twiddles</definition>
+        <argsstring></argsstring>
+        <name>twiddles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/timefreq.cs" line="11" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/timefreq.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1timefreq_1ae020f6006f51161b77fb136a08ead192" compoundref="timefreq_8cs" startline="111" endline="155">DigitalMusicAnalysis.timefreq.fft</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1timefreq_1a2fcde97131a4d48b0de2012be0e5b442" compoundref="timefreq_8cs" startline="13" endline="54">DigitalMusicAnalysis.timefreq.timefreq</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_digital_music_analysis_1_1timefreq_1a2fcde97131a4d48b0de2012be0e5b442" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DigitalMusicAnalysis.timefreq.timefreq</definition>
+        <argsstring>(float[] x, int windowSamp)</argsstring>
+        <name>timefreq</name>
+        <param>
+          <type>float[]</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>windowSamp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/timefreq.cs" line="13" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/timefreq.cs" bodystart="13" bodyend="54"/>
+        <references refid="class_digital_music_analysis_1_1timefreq_1ad89a75aae1d648fd61ecc7794faaf03e" compoundref="timefreq_8cs" startline="56" endline="109">DigitalMusicAnalysis.timefreq.stft</references>
+        <references refid="class_digital_music_analysis_1_1timefreq_1a709f8f7907dae5421a55c78fcbfaad3c" compoundref="timefreq_8cs" startline="9">DigitalMusicAnalysis.timefreq.timeFreqData</references>
+        <references refid="class_digital_music_analysis_1_1timefreq_1a7d051c6404af538f57d2515cee408c51" compoundref="timefreq_8cs" startline="11">DigitalMusicAnalysis.timefreq.twiddles</references>
+        <references refid="class_digital_music_analysis_1_1timefreq_1a215932d48d45df7fc737e8f97bcc82c2" compoundref="timefreq_8cs" startline="10">DigitalMusicAnalysis.timefreq.wSamp</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_digital_music_analysis_1_1timefreq_1ad89a75aae1d648fd61ecc7794faaf03e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float[][]</type>
+        <definition>float [][] DigitalMusicAnalysis.timefreq.stft</definition>
+        <argsstring>(Complex[] x, int wSamp)</argsstring>
+        <name>stft</name>
+        <param>
+          <type>Complex[]</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>wSamp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/timefreq.cs" line="56" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/timefreq.cs" bodystart="56" bodyend="109"/>
+        <references refid="class_digital_music_analysis_1_1timefreq_1ae020f6006f51161b77fb136a08ead192" compoundref="timefreq_8cs" startline="111" endline="155">DigitalMusicAnalysis.timefreq.fft</references>
+        <references refid="class_digital_music_analysis_1_1timefreq_1a215932d48d45df7fc737e8f97bcc82c2" compoundref="timefreq_8cs" startline="10">DigitalMusicAnalysis.timefreq.wSamp</references>
+        <referencedby refid="class_digital_music_analysis_1_1timefreq_1a2fcde97131a4d48b0de2012be0e5b442" compoundref="timefreq_8cs" startline="13" endline="54">DigitalMusicAnalysis.timefreq.timefreq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1timefreq_1ae020f6006f51161b77fb136a08ead192" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Complex[]</type>
+        <definition>Complex [] DigitalMusicAnalysis.timefreq.fft</definition>
+        <argsstring>(Complex[] x)</argsstring>
+        <name>fft</name>
+        <param>
+          <type>Complex[]</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/timefreq.cs" line="111" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/timefreq.cs" bodystart="111" bodyend="155"/>
+        <references refid="class_digital_music_analysis_1_1timefreq_1a7d051c6404af538f57d2515cee408c51" compoundref="timefreq_8cs" startline="11">DigitalMusicAnalysis.timefreq.twiddles</references>
+        <references refid="class_digital_music_analysis_1_1timefreq_1a215932d48d45df7fc737e8f97bcc82c2" compoundref="timefreq_8cs" startline="10">DigitalMusicAnalysis.timefreq.wSamp</references>
+        <referencedby refid="class_digital_music_analysis_1_1timefreq_1ad89a75aae1d648fd61ecc7794faaf03e" compoundref="timefreq_8cs" startline="56" endline="109">DigitalMusicAnalysis.timefreq.stft</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/timefreq.cs" line="8" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/timefreq.cs" bodystart="7" bodyend="157"/>
+    <listofallmembers>
+      <member refid="class_digital_music_analysis_1_1timefreq_1ae020f6006f51161b77fb136a08ead192" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::timefreq</scope><name>fft</name></member>
+      <member refid="class_digital_music_analysis_1_1timefreq_1ad89a75aae1d648fd61ecc7794faaf03e" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::timefreq</scope><name>stft</name></member>
+      <member refid="class_digital_music_analysis_1_1timefreq_1a2fcde97131a4d48b0de2012be0e5b442" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::timefreq</scope><name>timefreq</name></member>
+      <member refid="class_digital_music_analysis_1_1timefreq_1a709f8f7907dae5421a55c78fcbfaad3c" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::timefreq</scope><name>timeFreqData</name></member>
+      <member refid="class_digital_music_analysis_1_1timefreq_1a7d051c6404af538f57d2515cee408c51" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::timefreq</scope><name>twiddles</name></member>
+      <member refid="class_digital_music_analysis_1_1timefreq_1a215932d48d45df7fc737e8f97bcc82c2" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::timefreq</scope><name>wSamp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

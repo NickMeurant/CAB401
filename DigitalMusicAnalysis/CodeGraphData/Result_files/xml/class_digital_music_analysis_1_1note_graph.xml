@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_digital_music_analysis_1_1note_graph" kind="class" prot="public">
+    <compoundname>DigitalMusicAnalysis::noteGraph</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1note_graph_1ad332a48c54c6af716259069706cb3747" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DigitalMusicAnalysis.noteGraph.baseFreq</definition>
+        <argsstring></argsstring>
+        <name>baseFreq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/noteGraph.cs" line="8" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/noteGraph.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1note_graph_1a7ba85e02c7565d03c7601554611fef87" compoundref="note_graph_8cs" startline="17" endline="23">DigitalMusicAnalysis.noteGraph.noteGraph</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1note_graph_1a8a637e7782d1cccdffb6c7dc43d0ab69" compoundref="note_graph_8cs" startline="25" endline="36">DigitalMusicAnalysis.noteGraph.setRectHeights</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1note_graph_1ae03621cdd7c652a64fee529f72125034" prot="public" static="no" mutable="no">
+        <type>double[]</type>
+        <definition>double [] DigitalMusicAnalysis.noteGraph.heights</definition>
+        <argsstring></argsstring>
+        <name>heights</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/noteGraph.cs" line="9" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/noteGraph.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1note_graph_1a8a637e7782d1cccdffb6c7dc43d0ab69" compoundref="note_graph_8cs" startline="25" endline="36">DigitalMusicAnalysis.noteGraph.setRectHeights</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1note_graph_1a6a6f240c1a94a80ea0afc59bbd1c50d2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float DigitalMusicAnalysis.noteGraph.div</definition>
+        <argsstring></argsstring>
+        <name>div</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/noteGraph.cs" line="10" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/noteGraph.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1note_graph_1a7ba85e02c7565d03c7601554611fef87" compoundref="note_graph_8cs" startline="17" endline="23">DigitalMusicAnalysis.noteGraph.noteGraph</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1note_graph_1a8a637e7782d1cccdffb6c7dc43d0ab69" compoundref="note_graph_8cs" startline="25" endline="36">DigitalMusicAnalysis.noteGraph.setRectHeights</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_digital_music_analysis_1_1note_graph_1a7ba85e02c7565d03c7601554611fef87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DigitalMusicAnalysis.noteGraph.noteGraph</definition>
+        <argsstring>(float inRange, float divisor)</argsstring>
+        <name>noteGraph</name>
+        <param>
+          <type>float</type>
+          <declname>inRange</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>divisor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/noteGraph.cs" line="17" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/noteGraph.cs" bodystart="17" bodyend="23"/>
+        <references refid="class_digital_music_analysis_1_1note_graph_1ad332a48c54c6af716259069706cb3747" compoundref="note_graph_8cs" startline="8">DigitalMusicAnalysis.noteGraph.baseFreq</references>
+        <references refid="class_digital_music_analysis_1_1note_graph_1a6a6f240c1a94a80ea0afc59bbd1c50d2" compoundref="note_graph_8cs" startline="10">DigitalMusicAnalysis.noteGraph.div</references>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1note_graph_1a8a637e7782d1cccdffb6c7dc43d0ab69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DigitalMusicAnalysis.noteGraph.setRectHeights</definition>
+        <argsstring>(float[] values)</argsstring>
+        <name>setRectHeights</name>
+        <param>
+          <type>float[]</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/noteGraph.cs" line="25" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/noteGraph.cs" bodystart="25" bodyend="36"/>
+        <references refid="class_digital_music_analysis_1_1note_graph_1ad332a48c54c6af716259069706cb3747" compoundref="note_graph_8cs" startline="8">DigitalMusicAnalysis.noteGraph.baseFreq</references>
+        <references refid="class_digital_music_analysis_1_1note_graph_1a6a6f240c1a94a80ea0afc59bbd1c50d2" compoundref="note_graph_8cs" startline="10">DigitalMusicAnalysis.noteGraph.div</references>
+        <references refid="class_digital_music_analysis_1_1note_graph_1ae03621cdd7c652a64fee529f72125034" compoundref="note_graph_8cs" startline="9">DigitalMusicAnalysis.noteGraph.heights</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/noteGraph.cs" line="7" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/noteGraph.cs" bodystart="6" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_digital_music_analysis_1_1note_graph_1ad332a48c54c6af716259069706cb3747" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::noteGraph</scope><name>baseFreq</name></member>
+      <member refid="class_digital_music_analysis_1_1note_graph_1a6a6f240c1a94a80ea0afc59bbd1c50d2" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::noteGraph</scope><name>div</name></member>
+      <member refid="class_digital_music_analysis_1_1note_graph_1ae03621cdd7c652a64fee529f72125034" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::noteGraph</scope><name>heights</name></member>
+      <member refid="class_digital_music_analysis_1_1note_graph_1a7ba85e02c7565d03c7601554611fef87" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::noteGraph</scope><name>noteGraph</name></member>
+      <member refid="class_digital_music_analysis_1_1note_graph_1a8a637e7782d1cccdffb6c7dc43d0ab69" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::noteGraph</scope><name>setRectHeights</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

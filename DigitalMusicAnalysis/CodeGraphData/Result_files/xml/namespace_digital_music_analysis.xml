@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_digital_music_analysis" kind="namespace">
+    <compoundname>DigitalMusicAnalysis</compoundname>
+    <innerclass refid="class_digital_music_analysis_1_1_app" prot="public">DigitalMusicAnalysis::App</innerclass>
+    <innerclass refid="class_digital_music_analysis_1_1_main_window" prot="public">DigitalMusicAnalysis::MainWindow</innerclass>
+    <innerclass refid="class_digital_music_analysis_1_1music_note" prot="public">DigitalMusicAnalysis::musicNote</innerclass>
+    <innerclass refid="class_digital_music_analysis_1_1note_graph" prot="public">DigitalMusicAnalysis::noteGraph</innerclass>
+    <innerclass refid="class_digital_music_analysis_1_1timefreq" prot="public">DigitalMusicAnalysis::timefreq</innerclass>
+    <innerclass refid="class_digital_music_analysis_1_1wavefile" prot="public">DigitalMusicAnalysis::wavefile</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/App.xaml.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

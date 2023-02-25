@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_digital_music_analysis_1_1music_note" kind="class" prot="public">
+    <compoundname>DigitalMusicAnalysis::musicNote</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97" prot="public" static="no">
+        <name>notePitch</name>
+        <enumvalue id="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97a0e4c46df226b9c0cb391311c54f28efe" prot="public">
+          <name>Ab</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97ac57bbdcbfba558e3d23b60edde831e85" prot="public">
+          <name>A_</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97ad526f1c8ef6c1e4e980e2b8471352d23" prot="public">
+          <name>Bb</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97ae1eec1722bb8400f0df6cbfa52ac82c2" prot="public">
+          <name>B_</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97a064f80da74aefbacf50e14cbc69bc6a7" prot="public">
+          <name>C_</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97a1f51be0dc5971b918e74fcc59935234d" prot="public">
+          <name>Db</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97a887dd2a79f526ab400c4301868402aa1" prot="public">
+          <name>D_</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97a79db15b36e6310c0bf93c3b009b42daf" prot="public">
+          <name>Eb</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97aef27bb8bdb4e240634c560147af8bdf8" prot="public">
+          <name>E_</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97a73430508d6320c70cf31de76df45186d" prot="public">
+          <name>F_</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97a1c717215e36a6768f37353c8f554a7d8" prot="public">
+          <name>Gb</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97a604cb0fc9dc1139b56073f2bd9fb6f7e" prot="public">
+          <name>G_</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" line="8" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1music_note_1a13aaefb999958e388e05e5c8560d0f5c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DigitalMusicAnalysis.musicNote.pitch</definition>
+        <argsstring></argsstring>
+        <name>pitch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" line="9" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1ae38165dc0ab5358f2b8c7070ac41e7f1" compoundref="_main_window_8xaml_8cs" startline="655" endline="669">DigitalMusicAnalysis.MainWindow.DisplayStats</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1music_note_1a28a6f88ec50354efe6975ba4596eea84" compoundref="music_note_8cs" startline="17" endline="91">DigitalMusicAnalysis.musicNote.musicNote</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1music_note_1a0335804ee7615bc032da5c70b5a8f693" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DigitalMusicAnalysis.musicNote.duration</definition>
+        <argsstring></argsstring>
+        <name>duration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" line="10" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1music_note_1a28a6f88ec50354efe6975ba4596eea84" compoundref="music_note_8cs" startline="17" endline="91">DigitalMusicAnalysis.musicNote.musicNote</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1music_note_1a8eb4c361eba52e4a112adbc30bff6d58" compoundref="music_note_8cs" startline="92" endline="96">DigitalMusicAnalysis.musicNote.Output</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1music_note_1ae49ad7085ce77ecbb0ec00caea828a4d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DigitalMusicAnalysis.musicNote.flat</definition>
+        <argsstring></argsstring>
+        <name>flat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" line="11" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1music_note_1a28a6f88ec50354efe6975ba4596eea84" compoundref="music_note_8cs" startline="17" endline="91">DigitalMusicAnalysis.musicNote.musicNote</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1music_note_1a8988c34c524018bb357378f710b29dee" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DigitalMusicAnalysis.musicNote.error</definition>
+        <argsstring></argsstring>
+        <name>error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" line="12" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1ae38165dc0ab5358f2b8c7070ac41e7f1" compoundref="_main_window_8xaml_8cs" startline="655" endline="669">DigitalMusicAnalysis.MainWindow.DisplayStats</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1music_note_1a28a6f88ec50354efe6975ba4596eea84" compoundref="music_note_8cs" startline="17" endline="91">DigitalMusicAnalysis.musicNote.musicNote</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1music_note_1a8eb4c361eba52e4a112adbc30bff6d58" compoundref="music_note_8cs" startline="92" endline="96">DigitalMusicAnalysis.musicNote.Output</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1music_note_1a9acecc36b704d3e947d38b17c86c925e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DigitalMusicAnalysis.musicNote.staffPos</definition>
+        <argsstring></argsstring>
+        <name>staffPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" line="13" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1music_note_1a28a6f88ec50354efe6975ba4596eea84" compoundref="music_note_8cs" startline="17" endline="91">DigitalMusicAnalysis.musicNote.musicNote</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1music_note_1aa4920b8faa37a35a7c86f57f4de974b6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DigitalMusicAnalysis.musicNote.mult</definition>
+        <argsstring></argsstring>
+        <name>mult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" line="14" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1music_note_1a28a6f88ec50354efe6975ba4596eea84" compoundref="music_note_8cs" startline="17" endline="91">DigitalMusicAnalysis.musicNote.musicNote</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1music_note_1a8eb4c361eba52e4a112adbc30bff6d58" compoundref="music_note_8cs" startline="92" endline="96">DigitalMusicAnalysis.musicNote.Output</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1music_note_1afdd88f313e29c6081c8cc2df01833e02" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DigitalMusicAnalysis.musicNote.frequency</definition>
+        <argsstring></argsstring>
+        <name>frequency</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" line="15" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1music_note_1a28a6f88ec50354efe6975ba4596eea84" compoundref="music_note_8cs" startline="17" endline="91">DigitalMusicAnalysis.musicNote.musicNote</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_digital_music_analysis_1_1music_note_1a28a6f88ec50354efe6975ba4596eea84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DigitalMusicAnalysis.musicNote.musicNote</definition>
+        <argsstring>(double freq, double dur)</argsstring>
+        <name>musicNote</name>
+        <param>
+          <type>double</type>
+          <declname>freq</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" line="17" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" bodystart="17" bodyend="91"/>
+        <references refid="class_digital_music_analysis_1_1music_note_1a0335804ee7615bc032da5c70b5a8f693" compoundref="music_note_8cs" startline="10">DigitalMusicAnalysis.musicNote.duration</references>
+        <references refid="class_digital_music_analysis_1_1music_note_1a8988c34c524018bb357378f710b29dee" compoundref="music_note_8cs" startline="12">DigitalMusicAnalysis.musicNote.error</references>
+        <references refid="class_digital_music_analysis_1_1music_note_1ae49ad7085ce77ecbb0ec00caea828a4d" compoundref="music_note_8cs" startline="11">DigitalMusicAnalysis.musicNote.flat</references>
+        <references refid="class_digital_music_analysis_1_1music_note_1afdd88f313e29c6081c8cc2df01833e02" compoundref="music_note_8cs" startline="15">DigitalMusicAnalysis.musicNote.frequency</references>
+        <references refid="class_digital_music_analysis_1_1music_note_1aa4920b8faa37a35a7c86f57f4de974b6" compoundref="music_note_8cs" startline="14">DigitalMusicAnalysis.musicNote.mult</references>
+        <references refid="class_digital_music_analysis_1_1music_note_1a13aaefb999958e388e05e5c8560d0f5c" compoundref="music_note_8cs" startline="9">DigitalMusicAnalysis.musicNote.pitch</references>
+        <references refid="class_digital_music_analysis_1_1music_note_1a9acecc36b704d3e947d38b17c86c925e" compoundref="music_note_8cs" startline="13">DigitalMusicAnalysis.musicNote.staffPos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1music_note_1a8eb4c361eba52e4a112adbc30bff6d58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String DigitalMusicAnalysis.musicNote.Output</definition>
+        <argsstring>()</argsstring>
+        <name>Output</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" line="92" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" bodystart="92" bodyend="96"/>
+        <references refid="class_digital_music_analysis_1_1music_note_1a0335804ee7615bc032da5c70b5a8f693" compoundref="music_note_8cs" startline="10">DigitalMusicAnalysis.musicNote.duration</references>
+        <references refid="class_digital_music_analysis_1_1music_note_1a8988c34c524018bb357378f710b29dee" compoundref="music_note_8cs" startline="12">DigitalMusicAnalysis.musicNote.error</references>
+        <references refid="class_digital_music_analysis_1_1music_note_1aa4920b8faa37a35a7c86f57f4de974b6" compoundref="music_note_8cs" startline="14">DigitalMusicAnalysis.musicNote.mult</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" line="7" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/musicNote.cs" bodystart="6" bodyend="98"/>
+    <listofallmembers>
+      <member refid="class_digital_music_analysis_1_1music_note_1a0335804ee7615bc032da5c70b5a8f693" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::musicNote</scope><name>duration</name></member>
+      <member refid="class_digital_music_analysis_1_1music_note_1a8988c34c524018bb357378f710b29dee" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::musicNote</scope><name>error</name></member>
+      <member refid="class_digital_music_analysis_1_1music_note_1ae49ad7085ce77ecbb0ec00caea828a4d" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::musicNote</scope><name>flat</name></member>
+      <member refid="class_digital_music_analysis_1_1music_note_1afdd88f313e29c6081c8cc2df01833e02" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::musicNote</scope><name>frequency</name></member>
+      <member refid="class_digital_music_analysis_1_1music_note_1aa4920b8faa37a35a7c86f57f4de974b6" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::musicNote</scope><name>mult</name></member>
+      <member refid="class_digital_music_analysis_1_1music_note_1a28a6f88ec50354efe6975ba4596eea84" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::musicNote</scope><name>musicNote</name></member>
+      <member refid="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::musicNote</scope><name>notePitch</name></member>
+      <member refid="class_digital_music_analysis_1_1music_note_1a8eb4c361eba52e4a112adbc30bff6d58" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::musicNote</scope><name>Output</name></member>
+      <member refid="class_digital_music_analysis_1_1music_note_1a13aaefb999958e388e05e5c8560d0f5c" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::musicNote</scope><name>pitch</name></member>
+      <member refid="class_digital_music_analysis_1_1music_note_1a9acecc36b704d3e947d38b17c86c925e" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::musicNote</scope><name>staffPos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_digital_music_analysis_1_1_app" kind="class"><name>DigitalMusicAnalysis::App</name>
+  </compound>
+  <compound refid="class_digital_music_analysis_1_1_main_window" kind="class"><name>DigitalMusicAnalysis::MainWindow</name>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65f" kind="enum"><name>pitchConv</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa0d61f8370cad1d412f80b84d143e1257" kind="enumvalue"><name>C</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa1f51be0dc5971b918e74fcc59935234d" kind="enumvalue"><name>Db</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65faf623e75af30e62bbd73d6df5b50bb7b5" kind="enumvalue"><name>D</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa79db15b36e6310c0bf93c3b009b42daf" kind="enumvalue"><name>Eb</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa3a3ea00cfc35332cedf6e5e9a32e94da" kind="enumvalue"><name>E</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa800618943025315f869e4e1f09471012" kind="enumvalue"><name>F</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa1c717215e36a6768f37353c8f554a7d8" kind="enumvalue"><name>Gb</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fadfcf28d0734569a6a693bc8194de62bf" kind="enumvalue"><name>G</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa0e4c46df226b9c0cb391311c54f28efe" kind="enumvalue"><name>Ab</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa7fc56270e7a70fa81a5935b72eacbe29" kind="enumvalue"><name>A</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fad526f1c8ef6c1e4e980e2b8471352d23" kind="enumvalue"><name>Bb</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa9d5ed678fe57bcca610140957afab571" kind="enumvalue"><name>B</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a33eca38479dedb92050705609dd05e6c" kind="variable"><name>waveReader</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a78c7be61da9354a46e7a2e6099610389" kind="variable"><name>waveIn</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a147464ba124cbb5636468cdf62b2ca1f" kind="variable"><name>stftRep</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a665d77d1b1a5868042de3afc1aae34e6" kind="variable"><name>pixelArray</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1aa0f093fc0715c297f66573c427647807" kind="variable"><name>sheetmusic</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1adf9db5f67aeb8bf195a325c316367516" kind="variable"><name>playback</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1aaa5d70a4d71ad28800a31cf992016de3" kind="variable"><name>twiddles</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a079440e22bea43ab4b8a08269dec2c78" kind="variable"><name>compX</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a761257bffba0393ac03f076c884bb697" kind="variable"><name>filename</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a4c603d4511d1baea857564846b12bcaf" kind="variable"><name>bpm</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a9cab3db0b748acc24bc8dd6b6f48004f" kind="function"><name>MainWindow</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a0bdfd276f28d716d808cf0300b87feac" kind="function"><name>loadImage</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a3eed7e847b99e8e984b490ee87efcb57" kind="function"><name>loadHistogram</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a9cfaee5c0353d86d3e5af372a2c35990" kind="function"><name>zoomIN</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a524dfc5e512ab6307b3b1378a70887b7" kind="function"><name>zoomOUT</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a10952b3d1f84788f9df060bbd2fffe58" kind="function"><name>openFile</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1aae3c239015bae38659dc73110a22f9e4" kind="function"><name>loadWave</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1ae902fc074e5fd4351ff233b66f77adbd" kind="function"><name>freqDomain</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a17047d775d353b6f8301ff25f2ace1e5" kind="function"><name>onsetDetection</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1ae38165dc0ab5358f2b8c7070ac41e7f1" kind="function"><name>DisplayStats</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a9bb1b0fcff2aeb2b211df405139166f1" kind="function"><name>ClearStats</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a84fefe19df1e06062001cf22e94a7b23" kind="function"><name>updateHistogram</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a54de78389357739d0682e81cc7d4f45e" kind="function"><name>playBack</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a6bd392234579d4214fc42967eeeca9e8" kind="function"><name>updateSlider</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a9882af057556dc9bbd50fd7bc5a5dcf0" kind="function"><name>Window_Loaded</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1ac270e06e96ce7b86661b02f4fe7d4a6d" kind="function"><name>button3_Click</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1aac08cefa2cc8053315ebc5bab19a62d3" kind="function"><name>button4_Click</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a5c9d9308fe6f14fdcb12274c566a7697" kind="function"><name>replay</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1aff2aff870094fff814b2fbf59b06ed28" kind="function"><name>closeMusic</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1aab4c19e8ff5848624c5ca37b20164fe7" kind="function"><name>fft</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1ad954defa59c31d042781a3d968f6ae56" kind="function"><name>readXML</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a1f7e6aa7595b8248719fec7b7ed5d9f1" kind="function"><name>stringMatch</name></member>
+    <member refid="class_digital_music_analysis_1_1_main_window_1a31fa3c43db32a82b8a278706c53a0448" kind="function"><name>stringMatch</name></member>
+  </compound>
+  <compound refid="class_digital_music_analysis_1_1music_note" kind="class"><name>DigitalMusicAnalysis::musicNote</name>
+    <member refid="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97" kind="enum"><name>notePitch</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97a0e4c46df226b9c0cb391311c54f28efe" kind="enumvalue"><name>Ab</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97ac57bbdcbfba558e3d23b60edde831e85" kind="enumvalue"><name>A_</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97ad526f1c8ef6c1e4e980e2b8471352d23" kind="enumvalue"><name>Bb</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97ae1eec1722bb8400f0df6cbfa52ac82c2" kind="enumvalue"><name>B_</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97a064f80da74aefbacf50e14cbc69bc6a7" kind="enumvalue"><name>C_</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97a1f51be0dc5971b918e74fcc59935234d" kind="enumvalue"><name>Db</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97a887dd2a79f526ab400c4301868402aa1" kind="enumvalue"><name>D_</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97a79db15b36e6310c0bf93c3b009b42daf" kind="enumvalue"><name>Eb</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97aef27bb8bdb4e240634c560147af8bdf8" kind="enumvalue"><name>E_</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97a73430508d6320c70cf31de76df45186d" kind="enumvalue"><name>F_</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97a1c717215e36a6768f37353c8f554a7d8" kind="enumvalue"><name>Gb</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1ab5670df689952a869a3a5b8e7b2cbd97a604cb0fc9dc1139b56073f2bd9fb6f7e" kind="enumvalue"><name>G_</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1a13aaefb999958e388e05e5c8560d0f5c" kind="variable"><name>pitch</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1a0335804ee7615bc032da5c70b5a8f693" kind="variable"><name>duration</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1ae49ad7085ce77ecbb0ec00caea828a4d" kind="variable"><name>flat</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1a8988c34c524018bb357378f710b29dee" kind="variable"><name>error</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1a9acecc36b704d3e947d38b17c86c925e" kind="variable"><name>staffPos</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1aa4920b8faa37a35a7c86f57f4de974b6" kind="variable"><name>mult</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1afdd88f313e29c6081c8cc2df01833e02" kind="variable"><name>frequency</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1a28a6f88ec50354efe6975ba4596eea84" kind="function"><name>musicNote</name></member>
+    <member refid="class_digital_music_analysis_1_1music_note_1a8eb4c361eba52e4a112adbc30bff6d58" kind="function"><name>Output</name></member>
+  </compound>
+  <compound refid="class_digital_music_analysis_1_1note_graph" kind="class"><name>DigitalMusicAnalysis::noteGraph</name>
+    <member refid="class_digital_music_analysis_1_1note_graph_1ad332a48c54c6af716259069706cb3747" kind="variable"><name>baseFreq</name></member>
+    <member refid="class_digital_music_analysis_1_1note_graph_1ae03621cdd7c652a64fee529f72125034" kind="variable"><name>heights</name></member>
+    <member refid="class_digital_music_analysis_1_1note_graph_1a6a6f240c1a94a80ea0afc59bbd1c50d2" kind="variable"><name>div</name></member>
+    <member refid="class_digital_music_analysis_1_1note_graph_1a7ba85e02c7565d03c7601554611fef87" kind="function"><name>noteGraph</name></member>
+    <member refid="class_digital_music_analysis_1_1note_graph_1a8a637e7782d1cccdffb6c7dc43d0ab69" kind="function"><name>setRectHeights</name></member>
+  </compound>
+  <compound refid="class_digital_music_analysis_1_1timefreq" kind="class"><name>DigitalMusicAnalysis::timefreq</name>
+    <member refid="class_digital_music_analysis_1_1timefreq_1a709f8f7907dae5421a55c78fcbfaad3c" kind="variable"><name>timeFreqData</name></member>
+    <member refid="class_digital_music_analysis_1_1timefreq_1a215932d48d45df7fc737e8f97bcc82c2" kind="variable"><name>wSamp</name></member>
+    <member refid="class_digital_music_analysis_1_1timefreq_1a7d051c6404af538f57d2515cee408c51" kind="variable"><name>twiddles</name></member>
+    <member refid="class_digital_music_analysis_1_1timefreq_1a2fcde97131a4d48b0de2012be0e5b442" kind="function"><name>timefreq</name></member>
+    <member refid="class_digital_music_analysis_1_1timefreq_1ad89a75aae1d648fd61ecc7794faaf03e" kind="function"><name>stft</name></member>
+    <member refid="class_digital_music_analysis_1_1timefreq_1ae020f6006f51161b77fb136a08ead192" kind="function"><name>fft</name></member>
+  </compound>
+  <compound refid="class_digital_music_analysis_1_1wavefile" kind="class"><name>DigitalMusicAnalysis::wavefile</name>
+    <member refid="class_digital_music_analysis_1_1wavefile_1abeb0370f0261a47ecc51f75c6606bb08" kind="variable"><name>wave</name></member>
+    <member refid="class_digital_music_analysis_1_1wavefile_1a815bee04117f42c0a92c8a1bdddffa6c" kind="variable"><name>data</name></member>
+    <member refid="class_digital_music_analysis_1_1wavefile_1ae398b30cb6bae0f4d8f512fe670d7ad6" kind="variable"><name>ChunkID</name></member>
+    <member refid="class_digital_music_analysis_1_1wavefile_1a305051ec2ad07bd3defd0bacab41aafe" kind="variable"><name>ChunkSize</name></member>
+    <member refid="class_digital_music_analysis_1_1wavefile_1a57f503a4b0b4d86a02fc0005d8641e69" kind="variable"><name>Format</name></member>
+    <member refid="class_digital_music_analysis_1_1wavefile_1a29f33e242237e84947416e05e91db1d1" kind="variable"><name>Subchunk1ID</name></member>
+    <member refid="class_digital_music_analysis_1_1wavefile_1acb7d6aebbe20185ff15b199d65690421" kind="variable"><name>Subchunk1Size</name></member>
+    <member refid="class_digital_music_analysis_1_1wavefile_1aaeed5c50f5e4508115f837c652a0d292" kind="variable"><name>AudioFormat</name></member>
+    <member refid="class_digital_music_analysis_1_1wavefile_1af2331e63a8c19f5019ef6099e45c3a26" kind="variable"><name>NumChannels</name></member>
+    <member refid="class_digital_music_analysis_1_1wavefile_1ad4896a6888f13af6a8f4a6b5e9270689" kind="variable"><name>SampleRate</name></member>
+    <member refid="class_digital_music_analysis_1_1wavefile_1ada482cae02f61dea1acdfcb5b8274074" kind="variable"><name>ByteRate</name></member>
+    <member refid="class_digital_music_analysis_1_1wavefile_1a5fac63309b1636c6c01aaf6b5c962506" kind="variable"><name>BlockAlign</name></member>
+    <member refid="class_digital_music_analysis_1_1wavefile_1ab2b57d39353fae11cf5dff952c5d7461" kind="variable"><name>BitsPerSample</name></member>
+    <member refid="class_digital_music_analysis_1_1wavefile_1a6fc9f12709889c677707b673427a0bf5" kind="variable"><name>Subchunk2ID</name></member>
+    <member refid="class_digital_music_analysis_1_1wavefile_1a8459e96511638962091cfff89dadab50" kind="variable"><name>Subchunk2Size</name></member>
+    <member refid="class_digital_music_analysis_1_1wavefile_1abc31aa124f74f67513d99e5cd621a15e" kind="function"><name>wavefile</name></member>
+  </compound>
+  <compound refid="namespace_digital_music_analysis" kind="namespace"><name>DigitalMusicAnalysis</name>
+  </compound>
+  <compound refid="namespace_n_audio_1_1_wave" kind="namespace"><name>NAudio::Wave</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_configuration" kind="namespace"><name>System::Configuration</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_numerics" kind="namespace"><name>System::Numerics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading" kind="namespace"><name>System::Threading</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows" kind="namespace"><name>System::Windows</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls" kind="namespace"><name>System::Windows::Controls</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media" kind="namespace"><name>System::Windows::Media</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_imaging" kind="namespace"><name>System::Windows::Media::Imaging</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_shapes" kind="namespace"><name>System::Windows::Shapes</name>
+  </compound>
+  <compound refid="namespace_system_1_1_xml" kind="namespace"><name>System::Xml</name>
+  </compound>
+  <compound refid="_app_8xaml_8cs" kind="file"><name>App.xaml.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_main_window_8xaml_8cs" kind="file"><name>MainWindow.xaml.cs</name>
+  </compound>
+  <compound refid="music_note_8cs" kind="file"><name>musicNote.cs</name>
+  </compound>
+  <compound refid="note_graph_8cs" kind="file"><name>noteGraph.cs</name>
+  </compound>
+  <compound refid="timefreq_8cs" kind="file"><name>timefreq.cs</name>
+  </compound>
+  <compound refid="wavefile_8cs" kind="file"><name>wavefile.cs</name>
+  </compound>
+  <compound refid="dir_0753bca5bceaf71c88144086d14fab9c" kind="dir"><name>C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1</name>
+  </compound>
+  <compound refid="dir_34141d0250f39e85fad48efd4735c937" kind="dir"><name>C:/Users/Nicho/OneDrive/Documents/CAB401</name>
+  </compound>
+  <compound refid="dir_39dbe47504caca4487a15ade65e6e9dc" kind="dir"><name>C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis</name>
+  </compound>
+  <compound refid="dir_76698ed519591d105abba78afb2f9d28" kind="dir"><name>C:/Users/Nicho/OneDrive/Documents</name>
+  </compound>
+  <compound refid="dir_2df0fa2db48dae7b018178c27bb25049" kind="dir"><name>C:/Users/Nicho</name>
+  </compound>
+  <compound refid="dir_b577506a63c328a539adb07260cb0cc8" kind="dir"><name>C:/Users/Nicho/OneDrive</name>
+  </compound>
+  <compound refid="dir_8ceffd4ee35c3518d4e8bdc7e638efe8" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

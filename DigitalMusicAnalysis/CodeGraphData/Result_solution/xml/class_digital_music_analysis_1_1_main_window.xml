@@ -1,0 +1,830 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_digital_music_analysis_1_1_main_window" kind="class" prot="public">
+    <compoundname>DigitalMusicAnalysis::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65f" prot="private" static="no">
+        <name>pitchConv</name>
+        <enumvalue id="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa0d61f8370cad1d412f80b84d143e1257" prot="public">
+          <name>C</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa1f51be0dc5971b918e74fcc59935234d" prot="public">
+          <name>Db</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65faf623e75af30e62bbd73d6df5b50bb7b5" prot="public">
+          <name>D</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa79db15b36e6310c0bf93c3b009b42daf" prot="public">
+          <name>Eb</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa3a3ea00cfc35332cedf6e5e9a32e94da" prot="public">
+          <name>E</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa800618943025315f869e4e1f09471012" prot="public">
+          <name>F</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa1c717215e36a6768f37353c8f554a7d8" prot="public">
+          <name>Gb</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fadfcf28d0734569a6a693bc8194de62bf" prot="public">
+          <name>G</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa0e4c46df226b9c0cb391311c54f28efe" prot="public">
+          <name>Ab</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa7fc56270e7a70fa81a5935b72eacbe29" prot="public">
+          <name>A</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fad526f1c8ef6c1e4e980e2b8471352d23" prot="public">
+          <name>Bb</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa9d5ed678fe57bcca610140957afab571" prot="public">
+          <name>B</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="29" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1_main_window_1a33eca38479dedb92050705609dd05e6c" prot="private" static="no" mutable="no">
+        <type>WaveFileReader</type>
+        <definition>WaveFileReader DigitalMusicAnalysis.MainWindow.waveReader</definition>
+        <argsstring></argsstring>
+        <name>waveReader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="20" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1aae3c239015bae38659dc73110a22f9e4" compoundref="_main_window_8xaml_8cs" startline="275" endline="289">DigitalMusicAnalysis.MainWindow.loadWave</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a54de78389357739d0682e81cc7d4f45e" compoundref="_main_window_8xaml_8cs" startline="696" endline="701">DigitalMusicAnalysis.MainWindow.playBack</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1_main_window_1a78c7be61da9354a46e7a2e6099610389" prot="private" static="no" mutable="no">
+        <type><ref refid="class_digital_music_analysis_1_1wavefile" kindref="compound">wavefile</ref></type>
+        <definition>wavefile DigitalMusicAnalysis.MainWindow.waveIn</definition>
+        <argsstring></argsstring>
+        <name>waveIn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="21" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1ae902fc074e5fd4351ff233b66f77adbd" compoundref="_main_window_8xaml_8cs" startline="293" endline="305">DigitalMusicAnalysis.MainWindow.freqDomain</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1aae3c239015bae38659dc73110a22f9e4" compoundref="_main_window_8xaml_8cs" startline="275" endline="289">DigitalMusicAnalysis.MainWindow.loadWave</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a17047d775d353b6f8301ff25f2ace1e5" compoundref="_main_window_8xaml_8cs" startline="309" endline="653">DigitalMusicAnalysis.MainWindow.onsetDetection</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1ad954defa59c31d042781a3d968f6ae56" compoundref="_main_window_8xaml_8cs" startline="801" endline="892">DigitalMusicAnalysis.MainWindow.readXML</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1_main_window_1a147464ba124cbb5636468cdf62b2ca1f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_digital_music_analysis_1_1timefreq" kindref="compound">timefreq</ref></type>
+        <definition>timefreq DigitalMusicAnalysis.MainWindow.stftRep</definition>
+        <argsstring></argsstring>
+        <name>stftRep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="22" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1ae902fc074e5fd4351ff233b66f77adbd" compoundref="_main_window_8xaml_8cs" startline="293" endline="305">DigitalMusicAnalysis.MainWindow.freqDomain</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a17047d775d353b6f8301ff25f2ace1e5" compoundref="_main_window_8xaml_8cs" startline="309" endline="653">DigitalMusicAnalysis.MainWindow.onsetDetection</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1_main_window_1a665d77d1b1a5868042de3afc1aae34e6" prot="private" static="no" mutable="no">
+        <type>float[]</type>
+        <definition>float [] DigitalMusicAnalysis.MainWindow.pixelArray</definition>
+        <argsstring></argsstring>
+        <name>pixelArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="23" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1ae902fc074e5fd4351ff233b66f77adbd" compoundref="_main_window_8xaml_8cs" startline="293" endline="305">DigitalMusicAnalysis.MainWindow.freqDomain</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a0bdfd276f28d716d808cf0300b87feac" compoundref="_main_window_8xaml_8cs" startline="86" endline="108">DigitalMusicAnalysis.MainWindow.loadImage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1_main_window_1aa0f093fc0715c297f66573c427647807" prot="private" static="no" mutable="no">
+        <type><ref refid="class_digital_music_analysis_1_1music_note" kindref="compound">musicNote</ref>[]</type>
+        <definition>musicNote [] DigitalMusicAnalysis.MainWindow.sheetmusic</definition>
+        <argsstring></argsstring>
+        <name>sheetmusic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="24" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a9cab3db0b748acc24bc8dd6b6f48004f" compoundref="_main_window_8xaml_8cs" startline="32" endline="82">DigitalMusicAnalysis.MainWindow.MainWindow</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a17047d775d353b6f8301ff25f2ace1e5" compoundref="_main_window_8xaml_8cs" startline="309" endline="653">DigitalMusicAnalysis.MainWindow.onsetDetection</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1_main_window_1adf9db5f67aeb8bf195a325c316367516" prot="private" static="no" mutable="no">
+        <type>WaveOut</type>
+        <definition>WaveOut DigitalMusicAnalysis.MainWindow.playback</definition>
+        <argsstring></argsstring>
+        <name>playback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="25" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a54de78389357739d0682e81cc7d4f45e" compoundref="_main_window_8xaml_8cs" startline="696" endline="701">DigitalMusicAnalysis.MainWindow.playBack</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a6bd392234579d4214fc42967eeeca9e8" compoundref="_main_window_8xaml_8cs" startline="705" endline="719">DigitalMusicAnalysis.MainWindow.updateSlider</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1_main_window_1aaa5d70a4d71ad28800a31cf992016de3" prot="private" static="no" mutable="no">
+        <type>Complex[]</type>
+        <definition>Complex [] DigitalMusicAnalysis.MainWindow.twiddles</definition>
+        <argsstring></argsstring>
+        <name>twiddles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="26" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1aab4c19e8ff5848624c5ca37b20164fe7" compoundref="_main_window_8xaml_8cs" startline="756" endline="799">DigitalMusicAnalysis.MainWindow.fft</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a17047d775d353b6f8301ff25f2ace1e5" compoundref="_main_window_8xaml_8cs" startline="309" endline="653">DigitalMusicAnalysis.MainWindow.onsetDetection</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1_main_window_1a079440e22bea43ab4b8a08269dec2c78" prot="private" static="no" mutable="no">
+        <type>Complex[]</type>
+        <definition>Complex [] DigitalMusicAnalysis.MainWindow.compX</definition>
+        <argsstring></argsstring>
+        <name>compX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="27" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a17047d775d353b6f8301ff25f2ace1e5" compoundref="_main_window_8xaml_8cs" startline="309" endline="653">DigitalMusicAnalysis.MainWindow.onsetDetection</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1_main_window_1a761257bffba0393ac03f076c884bb697" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DigitalMusicAnalysis.MainWindow.filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="28" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a9cab3db0b748acc24bc8dd6b6f48004f" compoundref="_main_window_8xaml_8cs" startline="32" endline="82">DigitalMusicAnalysis.MainWindow.MainWindow</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a5c9d9308fe6f14fdcb12274c566a7697" compoundref="_main_window_8xaml_8cs" startline="742" endline="747">DigitalMusicAnalysis.MainWindow.replay</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1_main_window_1a4c603d4511d1baea857564846b12bcaf" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DigitalMusicAnalysis.MainWindow.bpm</definition>
+        <argsstring></argsstring>
+        <name>bpm</name>
+        <initializer>= 70</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="30" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a17047d775d353b6f8301ff25f2ace1e5" compoundref="_main_window_8xaml_8cs" startline="309" endline="653">DigitalMusicAnalysis.MainWindow.onsetDetection</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1ad954defa59c31d042781a3d968f6ae56" compoundref="_main_window_8xaml_8cs" startline="801" endline="892">DigitalMusicAnalysis.MainWindow.readXML</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1a9cab3db0b748acc24bc8dd6b6f48004f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DigitalMusicAnalysis.MainWindow.MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="32" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="32" bodyend="82"/>
+        <references refid="class_digital_music_analysis_1_1_main_window_1aff2aff870094fff814b2fbf59b06ed28" compoundref="_main_window_8xaml_8cs" startline="749" endline="752">DigitalMusicAnalysis.MainWindow.closeMusic</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a761257bffba0393ac03f076c884bb697" compoundref="_main_window_8xaml_8cs" startline="28">DigitalMusicAnalysis.MainWindow.filename</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1ae902fc074e5fd4351ff233b66f77adbd" compoundref="_main_window_8xaml_8cs" startline="293" endline="305">DigitalMusicAnalysis.MainWindow.freqDomain</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a3eed7e847b99e8e984b490ee87efcb57" compoundref="_main_window_8xaml_8cs" startline="112" endline="237">DigitalMusicAnalysis.MainWindow.loadHistogram</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a0bdfd276f28d716d808cf0300b87feac" compoundref="_main_window_8xaml_8cs" startline="86" endline="108">DigitalMusicAnalysis.MainWindow.loadImage</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1aae3c239015bae38659dc73110a22f9e4" compoundref="_main_window_8xaml_8cs" startline="275" endline="289">DigitalMusicAnalysis.MainWindow.loadWave</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a17047d775d353b6f8301ff25f2ace1e5" compoundref="_main_window_8xaml_8cs" startline="309" endline="653">DigitalMusicAnalysis.MainWindow.onsetDetection</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a54de78389357739d0682e81cc7d4f45e" compoundref="_main_window_8xaml_8cs" startline="696" endline="701">DigitalMusicAnalysis.MainWindow.playBack</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1ad954defa59c31d042781a3d968f6ae56" compoundref="_main_window_8xaml_8cs" startline="801" endline="892">DigitalMusicAnalysis.MainWindow.readXML</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1aa0f093fc0715c297f66573c427647807" compoundref="_main_window_8xaml_8cs" startline="24">DigitalMusicAnalysis.MainWindow.sheetmusic</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a84fefe19df1e06062001cf22e94a7b23" compoundref="_main_window_8xaml_8cs" startline="682" endline="692">DigitalMusicAnalysis.MainWindow.updateHistogram</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a6bd392234579d4214fc42967eeeca9e8" compoundref="_main_window_8xaml_8cs" startline="705" endline="719">DigitalMusicAnalysis.MainWindow.updateSlider</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a9cfaee5c0353d86d3e5af372a2c35990" compoundref="_main_window_8xaml_8cs" startline="241" endline="249">DigitalMusicAnalysis.MainWindow.zoomIN</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a524dfc5e512ab6307b3b1378a70887b7" compoundref="_main_window_8xaml_8cs" startline="253" endline="261">DigitalMusicAnalysis.MainWindow.zoomOUT</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1a0bdfd276f28d716d808cf0300b87feac" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DigitalMusicAnalysis.MainWindow.loadImage</definition>
+        <argsstring>()</argsstring>
+        <name>loadImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="86" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="86" bodyend="108"/>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a665d77d1b1a5868042de3afc1aae34e6" compoundref="_main_window_8xaml_8cs" startline="23">DigitalMusicAnalysis.MainWindow.pixelArray</references>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a9cab3db0b748acc24bc8dd6b6f48004f" compoundref="_main_window_8xaml_8cs" startline="32" endline="82">DigitalMusicAnalysis.MainWindow.MainWindow</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1a3eed7e847b99e8e984b490ee87efcb57" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DigitalMusicAnalysis.MainWindow.loadHistogram</definition>
+        <argsstring>()</argsstring>
+        <name>loadHistogram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="112" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="112" bodyend="237"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a9cab3db0b748acc24bc8dd6b6f48004f" compoundref="_main_window_8xaml_8cs" startline="32" endline="82">DigitalMusicAnalysis.MainWindow.MainWindow</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a84fefe19df1e06062001cf22e94a7b23" compoundref="_main_window_8xaml_8cs" startline="682" endline="692">DigitalMusicAnalysis.MainWindow.updateHistogram</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1a9cfaee5c0353d86d3e5af372a2c35990" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DigitalMusicAnalysis.MainWindow.zoomIN</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>zoomIN</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="241" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="241" bodyend="249"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a9cab3db0b748acc24bc8dd6b6f48004f" compoundref="_main_window_8xaml_8cs" startline="32" endline="82">DigitalMusicAnalysis.MainWindow.MainWindow</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1a524dfc5e512ab6307b3b1378a70887b7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DigitalMusicAnalysis.MainWindow.zoomOUT</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>zoomOUT</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="253" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="253" bodyend="261"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a9cab3db0b748acc24bc8dd6b6f48004f" compoundref="_main_window_8xaml_8cs" startline="32" endline="82">DigitalMusicAnalysis.MainWindow.MainWindow</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1a10952b3d1f84788f9df060bbd2fffe58" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string DigitalMusicAnalysis.MainWindow.openFile</definition>
+        <argsstring>(string title)</argsstring>
+        <name>openFile</name>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="265" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="265" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1aae3c239015bae38659dc73110a22f9e4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DigitalMusicAnalysis.MainWindow.loadWave</definition>
+        <argsstring>(string filename)</argsstring>
+        <name>loadWave</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="275" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="275" bodyend="289"/>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a78c7be61da9354a46e7a2e6099610389" compoundref="_main_window_8xaml_8cs" startline="21">DigitalMusicAnalysis.MainWindow.waveIn</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a33eca38479dedb92050705609dd05e6c" compoundref="_main_window_8xaml_8cs" startline="20">DigitalMusicAnalysis.MainWindow.waveReader</references>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a9cab3db0b748acc24bc8dd6b6f48004f" compoundref="_main_window_8xaml_8cs" startline="32" endline="82">DigitalMusicAnalysis.MainWindow.MainWindow</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a5c9d9308fe6f14fdcb12274c566a7697" compoundref="_main_window_8xaml_8cs" startline="742" endline="747">DigitalMusicAnalysis.MainWindow.replay</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1ae902fc074e5fd4351ff233b66f77adbd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DigitalMusicAnalysis.MainWindow.freqDomain</definition>
+        <argsstring>()</argsstring>
+        <name>freqDomain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="293" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="293" bodyend="305"/>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a665d77d1b1a5868042de3afc1aae34e6" compoundref="_main_window_8xaml_8cs" startline="23">DigitalMusicAnalysis.MainWindow.pixelArray</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a147464ba124cbb5636468cdf62b2ca1f" compoundref="_main_window_8xaml_8cs" startline="22">DigitalMusicAnalysis.MainWindow.stftRep</references>
+        <references refid="class_digital_music_analysis_1_1wavefile_1abeb0370f0261a47ecc51f75c6606bb08" compoundref="wavefile_8cs" startline="7">DigitalMusicAnalysis.wavefile.wave</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a78c7be61da9354a46e7a2e6099610389" compoundref="_main_window_8xaml_8cs" startline="21">DigitalMusicAnalysis.MainWindow.waveIn</references>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a9cab3db0b748acc24bc8dd6b6f48004f" compoundref="_main_window_8xaml_8cs" startline="32" endline="82">DigitalMusicAnalysis.MainWindow.MainWindow</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1a17047d775d353b6f8301ff25f2ace1e5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DigitalMusicAnalysis.MainWindow.onsetDetection</definition>
+        <argsstring>()</argsstring>
+        <name>onsetDetection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para><itemizedlist>
+<listitem></listitem></itemizedlist>
+</para>        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="309" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="309" bodyend="653"/>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a4c603d4511d1baea857564846b12bcaf" compoundref="_main_window_8xaml_8cs" startline="30">DigitalMusicAnalysis.MainWindow.bpm</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a9bb1b0fcff2aeb2b211df405139166f1" compoundref="_main_window_8xaml_8cs" startline="671" endline="677">DigitalMusicAnalysis.MainWindow.ClearStats</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a079440e22bea43ab4b8a08269dec2c78" compoundref="_main_window_8xaml_8cs" startline="27">DigitalMusicAnalysis.MainWindow.compX</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1ae38165dc0ab5358f2b8c7070ac41e7f1" compoundref="_main_window_8xaml_8cs" startline="655" endline="669">DigitalMusicAnalysis.MainWindow.DisplayStats</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1aab4c19e8ff5848624c5ca37b20164fe7" compoundref="_main_window_8xaml_8cs" startline="756" endline="799">DigitalMusicAnalysis.MainWindow.fft</references>
+        <references refid="class_digital_music_analysis_1_1wavefile_1ad4896a6888f13af6a8f4a6b5e9270689" compoundref="wavefile_8cs" startline="16">DigitalMusicAnalysis.wavefile.SampleRate</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1aa0f093fc0715c297f66573c427647807" compoundref="_main_window_8xaml_8cs" startline="24">DigitalMusicAnalysis.MainWindow.sheetmusic</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a147464ba124cbb5636468cdf62b2ca1f" compoundref="_main_window_8xaml_8cs" startline="22">DigitalMusicAnalysis.MainWindow.stftRep</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a1f7e6aa7595b8248719fec7b7ed5d9f1" compoundref="_main_window_8xaml_8cs" startline="894" endline="1022">DigitalMusicAnalysis.MainWindow.stringMatch</references>
+        <references refid="class_digital_music_analysis_1_1timefreq_1a709f8f7907dae5421a55c78fcbfaad3c" compoundref="timefreq_8cs" startline="9">DigitalMusicAnalysis.timefreq.timeFreqData</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1aaa5d70a4d71ad28800a31cf992016de3" compoundref="_main_window_8xaml_8cs" startline="26">DigitalMusicAnalysis.MainWindow.twiddles</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a78c7be61da9354a46e7a2e6099610389" compoundref="_main_window_8xaml_8cs" startline="21">DigitalMusicAnalysis.MainWindow.waveIn</references>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a9cab3db0b748acc24bc8dd6b6f48004f" compoundref="_main_window_8xaml_8cs" startline="32" endline="82">DigitalMusicAnalysis.MainWindow.MainWindow</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1ae38165dc0ab5358f2b8c7070ac41e7f1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DigitalMusicAnalysis.MainWindow.DisplayStats</definition>
+        <argsstring>(object sender, System.Windows.Input.MouseEventArgs e)</argsstring>
+        <name>DisplayStats</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Windows.Input.MouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="655" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="655" bodyend="669"/>
+        <references refid="class_digital_music_analysis_1_1music_note_1a8988c34c524018bb357378f710b29dee" compoundref="music_note_8cs" startline="12">DigitalMusicAnalysis.musicNote.error</references>
+        <references refid="class_digital_music_analysis_1_1music_note_1a13aaefb999958e388e05e5c8560d0f5c" compoundref="music_note_8cs" startline="9">DigitalMusicAnalysis.musicNote.pitch</references>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a17047d775d353b6f8301ff25f2ace1e5" compoundref="_main_window_8xaml_8cs" startline="309" endline="653">DigitalMusicAnalysis.MainWindow.onsetDetection</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1a9bb1b0fcff2aeb2b211df405139166f1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DigitalMusicAnalysis.MainWindow.ClearStats</definition>
+        <argsstring>(object sender, System.Windows.Input.MouseEventArgs e)</argsstring>
+        <name>ClearStats</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Windows.Input.MouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="671" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="671" bodyend="677"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a17047d775d353b6f8301ff25f2ace1e5" compoundref="_main_window_8xaml_8cs" startline="309" endline="653">DigitalMusicAnalysis.MainWindow.onsetDetection</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1a84fefe19df1e06062001cf22e94a7b23" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DigitalMusicAnalysis.MainWindow.updateHistogram</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>updateHistogram</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="682" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="682" bodyend="692"/>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a3eed7e847b99e8e984b490ee87efcb57" compoundref="_main_window_8xaml_8cs" startline="112" endline="237">DigitalMusicAnalysis.MainWindow.loadHistogram</references>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a9cab3db0b748acc24bc8dd6b6f48004f" compoundref="_main_window_8xaml_8cs" startline="32" endline="82">DigitalMusicAnalysis.MainWindow.MainWindow</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1a54de78389357739d0682e81cc7d4f45e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DigitalMusicAnalysis.MainWindow.playBack</definition>
+        <argsstring>()</argsstring>
+        <name>playBack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="696" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="696" bodyend="701"/>
+        <references refid="class_digital_music_analysis_1_1_main_window_1adf9db5f67aeb8bf195a325c316367516" compoundref="_main_window_8xaml_8cs" startline="25">DigitalMusicAnalysis.MainWindow.playback</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a33eca38479dedb92050705609dd05e6c" compoundref="_main_window_8xaml_8cs" startline="20">DigitalMusicAnalysis.MainWindow.waveReader</references>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a9cab3db0b748acc24bc8dd6b6f48004f" compoundref="_main_window_8xaml_8cs" startline="32" endline="82">DigitalMusicAnalysis.MainWindow.MainWindow</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a5c9d9308fe6f14fdcb12274c566a7697" compoundref="_main_window_8xaml_8cs" startline="742" endline="747">DigitalMusicAnalysis.MainWindow.replay</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1a6bd392234579d4214fc42967eeeca9e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DigitalMusicAnalysis.MainWindow.updateSlider</definition>
+        <argsstring>()</argsstring>
+        <name>updateSlider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="705" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="705" bodyend="719"/>
+        <references refid="class_digital_music_analysis_1_1_main_window_1adf9db5f67aeb8bf195a325c316367516" compoundref="_main_window_8xaml_8cs" startline="25">DigitalMusicAnalysis.MainWindow.playback</references>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a9cab3db0b748acc24bc8dd6b6f48004f" compoundref="_main_window_8xaml_8cs" startline="32" endline="82">DigitalMusicAnalysis.MainWindow.MainWindow</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1a9882af057556dc9bbd50fd7bc5a5dcf0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DigitalMusicAnalysis.MainWindow.Window_Loaded</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Window_Loaded</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="721" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="721" bodyend="724"/>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1ac270e06e96ce7b86661b02f4fe7d4a6d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DigitalMusicAnalysis.MainWindow.button3_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>button3_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="728" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="728" bodyend="731"/>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1aac08cefa2cc8053315ebc5bab19a62d3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DigitalMusicAnalysis.MainWindow.button4_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>button4_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="735" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="735" bodyend="738"/>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1a5c9d9308fe6f14fdcb12274c566a7697" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DigitalMusicAnalysis.MainWindow.replay</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>replay</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="742" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="742" bodyend="747"/>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a761257bffba0393ac03f076c884bb697" compoundref="_main_window_8xaml_8cs" startline="28">DigitalMusicAnalysis.MainWindow.filename</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1aae3c239015bae38659dc73110a22f9e4" compoundref="_main_window_8xaml_8cs" startline="275" endline="289">DigitalMusicAnalysis.MainWindow.loadWave</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a54de78389357739d0682e81cc7d4f45e" compoundref="_main_window_8xaml_8cs" startline="696" endline="701">DigitalMusicAnalysis.MainWindow.playBack</references>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1aff2aff870094fff814b2fbf59b06ed28" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DigitalMusicAnalysis.MainWindow.closeMusic</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>closeMusic</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="749" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="749" bodyend="752"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a9cab3db0b748acc24bc8dd6b6f48004f" compoundref="_main_window_8xaml_8cs" startline="32" endline="82">DigitalMusicAnalysis.MainWindow.MainWindow</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1aab4c19e8ff5848624c5ca37b20164fe7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Complex[]</type>
+        <definition>Complex [] DigitalMusicAnalysis.MainWindow.fft</definition>
+        <argsstring>(Complex[] x, int L)</argsstring>
+        <name>fft</name>
+        <param>
+          <type>Complex[]</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="756" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="756" bodyend="799"/>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa3a3ea00cfc35332cedf6e5e9a32e94da">DigitalMusicAnalysis.MainWindow.E</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1aaa5d70a4d71ad28800a31cf992016de3" compoundref="_main_window_8xaml_8cs" startline="26">DigitalMusicAnalysis.MainWindow.twiddles</references>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a17047d775d353b6f8301ff25f2ace1e5" compoundref="_main_window_8xaml_8cs" startline="309" endline="653">DigitalMusicAnalysis.MainWindow.onsetDetection</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1ad954defa59c31d042781a3d968f6ae56" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_digital_music_analysis_1_1music_note" kindref="compound">musicNote</ref>[]</type>
+        <definition>musicNote [] DigitalMusicAnalysis.MainWindow.readXML</definition>
+        <argsstring>(string filename)</argsstring>
+        <name>readXML</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="801" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="801" bodyend="892"/>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a4c603d4511d1baea857564846b12bcaf" compoundref="_main_window_8xaml_8cs" startline="30">DigitalMusicAnalysis.MainWindow.bpm</references>
+        <references refid="class_digital_music_analysis_1_1wavefile_1ad4896a6888f13af6a8f4a6b5e9270689" compoundref="wavefile_8cs" startline="16">DigitalMusicAnalysis.wavefile.SampleRate</references>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a78c7be61da9354a46e7a2e6099610389" compoundref="_main_window_8xaml_8cs" startline="21">DigitalMusicAnalysis.MainWindow.waveIn</references>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a9cab3db0b748acc24bc8dd6b6f48004f" compoundref="_main_window_8xaml_8cs" startline="32" endline="82">DigitalMusicAnalysis.MainWindow.MainWindow</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1a1f7e6aa7595b8248719fec7b7ed5d9f1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string[]</type>
+        <definition>string [] DigitalMusicAnalysis.MainWindow.stringMatch</definition>
+        <argsstring>(string A, string B)</argsstring>
+        <name>stringMatch</name>
+        <param>
+          <type>string</type>
+          <declname>A</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>B</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="894" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="894" bodyend="1022"/>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa800618943025315f869e4e1f09471012">DigitalMusicAnalysis.MainWindow.F</references>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a17047d775d353b6f8301ff25f2ace1e5" compoundref="_main_window_8xaml_8cs" startline="309" endline="653">DigitalMusicAnalysis.MainWindow.onsetDetection</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_digital_music_analysis_1_1_main_window_1a31fa3c43db32a82b8a278706c53a0448" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string[]</type>
+        <definition>string [] DigitalMusicAnalysis.MainWindow.stringMatch</definition>
+        <argsstring>(int[] A, int[] B)</argsstring>
+        <name>stringMatch</name>
+        <param>
+          <type>int[]</type>
+          <declname>A</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>B</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="1024" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="1024" bodyend="1153"/>
+        <references refid="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65fa800618943025315f869e4e1f09471012">DigitalMusicAnalysis.MainWindow.F</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>Window</label>
+      </node>
+      <node id="4">
+        <label>DigitalMusicAnalysis.MainWindow</label>
+        <link refid="class_digital_music_analysis_1_1_main_window"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>Window</label>
+      </node>
+      <node id="10">
+        <label>DigitalMusicAnalysis.timefreq</label>
+        <link refid="class_digital_music_analysis_1_1timefreq"/>
+      </node>
+      <node id="9">
+        <label>DigitalMusicAnalysis.wavefile</label>
+        <link refid="class_digital_music_analysis_1_1wavefile"/>
+      </node>
+      <node id="8">
+        <label>DigitalMusicAnalysis.musicNote</label>
+        <link refid="class_digital_music_analysis_1_1music_note"/>
+      </node>
+      <node id="6">
+        <label>DigitalMusicAnalysis.MainWindow</label>
+        <link refid="class_digital_music_analysis_1_1_main_window"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>sheetmusic</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>waveIn</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>stftRep</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" line="19" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/MainWindow.xaml.cs" bodystart="18" bodyend="1155"/>
+    <listofallmembers>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a4c603d4511d1baea857564846b12bcaf" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>bpm</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1ac270e06e96ce7b86661b02f4fe7d4a6d" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>button3_Click</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1aac08cefa2cc8053315ebc5bab19a62d3" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>button4_Click</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a9bb1b0fcff2aeb2b211df405139166f1" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>ClearStats</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1aff2aff870094fff814b2fbf59b06ed28" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>closeMusic</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a079440e22bea43ab4b8a08269dec2c78" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>compX</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1ae38165dc0ab5358f2b8c7070ac41e7f1" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>DisplayStats</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1aab4c19e8ff5848624c5ca37b20164fe7" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>fft</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a761257bffba0393ac03f076c884bb697" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>filename</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1ae902fc074e5fd4351ff233b66f77adbd" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>freqDomain</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a3eed7e847b99e8e984b490ee87efcb57" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>loadHistogram</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a0bdfd276f28d716d808cf0300b87feac" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>loadImage</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1aae3c239015bae38659dc73110a22f9e4" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>loadWave</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a9cab3db0b748acc24bc8dd6b6f48004f" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>MainWindow</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a17047d775d353b6f8301ff25f2ace1e5" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>onsetDetection</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a10952b3d1f84788f9df060bbd2fffe58" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>openFile</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a3dadf62cde1dfdeb203477ad4ae7f65f" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>pitchConv</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a665d77d1b1a5868042de3afc1aae34e6" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>pixelArray</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a54de78389357739d0682e81cc7d4f45e" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>playBack</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1adf9db5f67aeb8bf195a325c316367516" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>playback</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1ad954defa59c31d042781a3d968f6ae56" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>readXML</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a5c9d9308fe6f14fdcb12274c566a7697" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>replay</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1aa0f093fc0715c297f66573c427647807" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>sheetmusic</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a147464ba124cbb5636468cdf62b2ca1f" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>stftRep</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a1f7e6aa7595b8248719fec7b7ed5d9f1" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>stringMatch</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a31fa3c43db32a82b8a278706c53a0448" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>stringMatch</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1aaa5d70a4d71ad28800a31cf992016de3" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>twiddles</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a84fefe19df1e06062001cf22e94a7b23" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>updateHistogram</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a6bd392234579d4214fc42967eeeca9e8" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>updateSlider</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a78c7be61da9354a46e7a2e6099610389" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>waveIn</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a33eca38479dedb92050705609dd05e6c" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>waveReader</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a9882af057556dc9bbd50fd7bc5a5dcf0" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>Window_Loaded</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a9cfaee5c0353d86d3e5af372a2c35990" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>zoomIN</name></member>
+      <member refid="class_digital_music_analysis_1_1_main_window_1a524dfc5e512ab6307b3b1378a70887b7" prot="private" virt="non-virtual"><scope>DigitalMusicAnalysis::MainWindow</scope><name>zoomOUT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="rasctrnm_8h" kind="file"><name>rasctrnm.h</name>
+    <member refid="rasctrnm_8h_1a630fb0c3b3495a23bdec444d96185d73" kind="define"><name>RASPORTOBJ</name></member>
+    <member refid="rasctrnm_8h_1a5dd8b0116897762f32d2628769032607" kind="define"><name>BYTESTX</name></member>
+    <member refid="rasctrnm_8h_1a0a6f75335eecc5b69f97f75d97f8388d" kind="define"><name>BYTESRX</name></member>
+    <member refid="rasctrnm_8h_1a097a464bf4dbf23a44bbaa1cb95cb1ed" kind="define"><name>FRAMESTX</name></member>
+    <member refid="rasctrnm_8h_1adb98ab9991bbc30c5a2ca92248196734" kind="define"><name>FRAMESRX</name></member>
+    <member refid="rasctrnm_8h_1a48819c78c9b27ccb02d65512dc3cc0f0" kind="define"><name>PERCENTTXC</name></member>
+    <member refid="rasctrnm_8h_1a240fb6feb6d248c566e2e1c2e4b5a9c7" kind="define"><name>PERCENTRXC</name></member>
+    <member refid="rasctrnm_8h_1abbf3c9862f59a6df7480f1f9569d36f0" kind="define"><name>CRCERRORS</name></member>
+    <member refid="rasctrnm_8h_1ab86bd0e6ce86ec1091ae3cf95dd6341e" kind="define"><name>TIMEOUTERRORS</name></member>
+    <member refid="rasctrnm_8h_1a6c93f8d09cd892b39e84a3fe661fa9af" kind="define"><name>SERIALOVERRUNS</name></member>
+    <member refid="rasctrnm_8h_1af1ada82aed680c85a0d026d112038e23" kind="define"><name>ALIGNMENTERRORS</name></member>
+    <member refid="rasctrnm_8h_1a78cfe76d80225812e9796225d2af0ae7" kind="define"><name>BUFFEROVERRUNS</name></member>
+    <member refid="rasctrnm_8h_1ab3163a77306f4b3949d458304e6b8ca7" kind="define"><name>TOTALERRORS</name></member>
+    <member refid="rasctrnm_8h_1a101ef905fc4f144fbe673331e4528f16" kind="define"><name>BYTESTXSEC</name></member>
+    <member refid="rasctrnm_8h_1aa4e26b935748bd0505ff33e6b6e3d398" kind="define"><name>BYTESRXSEC</name></member>
+    <member refid="rasctrnm_8h_1a105cba2fc933452768695dfd6baa2145" kind="define"><name>FRAMESTXSEC</name></member>
+    <member refid="rasctrnm_8h_1a53e8a5fb6c29c193163631943be193f5" kind="define"><name>FRAMESRXSEC</name></member>
+    <member refid="rasctrnm_8h_1adce9842e3d928886b5e3f6396741ed84" kind="define"><name>TOTALERRORSSEC</name></member>
+    <member refid="rasctrnm_8h_1af1662a4a4677bd31c0d593da32ee7843" kind="define"><name>RASTOTALOBJ</name></member>
+    <member refid="rasctrnm_8h_1aa3e1b07bb04dece2d9c7a885ef5987e9" kind="define"><name>TOTALCONNECTIONS</name></member>
+  </compound>
+</doxygenindex>

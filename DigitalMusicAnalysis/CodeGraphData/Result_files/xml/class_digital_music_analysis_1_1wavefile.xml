@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_digital_music_analysis_1_1wavefile" kind="class" prot="public">
+    <compoundname>DigitalMusicAnalysis::wavefile</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1wavefile_1abeb0370f0261a47ecc51f75c6606bb08" prot="public" static="no" mutable="no">
+        <type>float[]</type>
+        <definition>float [] DigitalMusicAnalysis.wavefile.wave</definition>
+        <argsstring></argsstring>
+        <name>wave</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" line="7" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1ae902fc074e5fd4351ff233b66f77adbd" compoundref="_main_window_8xaml_8cs" startline="293" endline="305">DigitalMusicAnalysis.MainWindow.freqDomain</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1wavefile_1abc31aa124f74f67513d99e5cd621a15e" compoundref="wavefile_8cs" startline="23" endline="52">DigitalMusicAnalysis.wavefile.wavefile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1wavefile_1a815bee04117f42c0a92c8a1bdddffa6c" prot="public" static="no" mutable="no">
+        <type>byte[]</type>
+        <definition>byte [] DigitalMusicAnalysis.wavefile.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" line="8" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1wavefile_1abc31aa124f74f67513d99e5cd621a15e" compoundref="wavefile_8cs" startline="23" endline="52">DigitalMusicAnalysis.wavefile.wavefile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1wavefile_1ae398b30cb6bae0f4d8f512fe670d7ad6" prot="public" static="no" mutable="no">
+        <type>char[]</type>
+        <definition>char [] DigitalMusicAnalysis.wavefile.ChunkID</definition>
+        <argsstring></argsstring>
+        <name>ChunkID</name>
+        <initializer>= new char[4]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" line="9" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1wavefile_1abc31aa124f74f67513d99e5cd621a15e" compoundref="wavefile_8cs" startline="23" endline="52">DigitalMusicAnalysis.wavefile.wavefile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1wavefile_1a305051ec2ad07bd3defd0bacab41aafe" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DigitalMusicAnalysis.wavefile.ChunkSize</definition>
+        <argsstring></argsstring>
+        <name>ChunkSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" line="10" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1wavefile_1abc31aa124f74f67513d99e5cd621a15e" compoundref="wavefile_8cs" startline="23" endline="52">DigitalMusicAnalysis.wavefile.wavefile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1wavefile_1a57f503a4b0b4d86a02fc0005d8641e69" prot="public" static="no" mutable="no">
+        <type>char[]</type>
+        <definition>char [] DigitalMusicAnalysis.wavefile.Format</definition>
+        <argsstring></argsstring>
+        <name>Format</name>
+        <initializer>= new char[4]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" line="11" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1wavefile_1abc31aa124f74f67513d99e5cd621a15e" compoundref="wavefile_8cs" startline="23" endline="52">DigitalMusicAnalysis.wavefile.wavefile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1wavefile_1a29f33e242237e84947416e05e91db1d1" prot="public" static="no" mutable="no">
+        <type>char[]</type>
+        <definition>char [] DigitalMusicAnalysis.wavefile.Subchunk1ID</definition>
+        <argsstring></argsstring>
+        <name>Subchunk1ID</name>
+        <initializer>= new char[4]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" line="12" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1wavefile_1abc31aa124f74f67513d99e5cd621a15e" compoundref="wavefile_8cs" startline="23" endline="52">DigitalMusicAnalysis.wavefile.wavefile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1wavefile_1acb7d6aebbe20185ff15b199d65690421" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DigitalMusicAnalysis.wavefile.Subchunk1Size</definition>
+        <argsstring></argsstring>
+        <name>Subchunk1Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" line="13" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1wavefile_1abc31aa124f74f67513d99e5cd621a15e" compoundref="wavefile_8cs" startline="23" endline="52">DigitalMusicAnalysis.wavefile.wavefile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1wavefile_1aaeed5c50f5e4508115f837c652a0d292" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DigitalMusicAnalysis.wavefile.AudioFormat</definition>
+        <argsstring></argsstring>
+        <name>AudioFormat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" line="14" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1wavefile_1abc31aa124f74f67513d99e5cd621a15e" compoundref="wavefile_8cs" startline="23" endline="52">DigitalMusicAnalysis.wavefile.wavefile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1wavefile_1af2331e63a8c19f5019ef6099e45c3a26" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DigitalMusicAnalysis.wavefile.NumChannels</definition>
+        <argsstring></argsstring>
+        <name>NumChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" line="15" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1wavefile_1abc31aa124f74f67513d99e5cd621a15e" compoundref="wavefile_8cs" startline="23" endline="52">DigitalMusicAnalysis.wavefile.wavefile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1wavefile_1ad4896a6888f13af6a8f4a6b5e9270689" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DigitalMusicAnalysis.wavefile.SampleRate</definition>
+        <argsstring></argsstring>
+        <name>SampleRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" line="16" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1a17047d775d353b6f8301ff25f2ace1e5" compoundref="_main_window_8xaml_8cs" startline="309" endline="653">DigitalMusicAnalysis.MainWindow.onsetDetection</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1_main_window_1ad954defa59c31d042781a3d968f6ae56" compoundref="_main_window_8xaml_8cs" startline="801" endline="892">DigitalMusicAnalysis.MainWindow.readXML</referencedby>
+        <referencedby refid="class_digital_music_analysis_1_1wavefile_1abc31aa124f74f67513d99e5cd621a15e" compoundref="wavefile_8cs" startline="23" endline="52">DigitalMusicAnalysis.wavefile.wavefile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1wavefile_1ada482cae02f61dea1acdfcb5b8274074" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DigitalMusicAnalysis.wavefile.ByteRate</definition>
+        <argsstring></argsstring>
+        <name>ByteRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" line="17" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1wavefile_1abc31aa124f74f67513d99e5cd621a15e" compoundref="wavefile_8cs" startline="23" endline="52">DigitalMusicAnalysis.wavefile.wavefile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1wavefile_1a5fac63309b1636c6c01aaf6b5c962506" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DigitalMusicAnalysis.wavefile.BlockAlign</definition>
+        <argsstring></argsstring>
+        <name>BlockAlign</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" line="18" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1wavefile_1abc31aa124f74f67513d99e5cd621a15e" compoundref="wavefile_8cs" startline="23" endline="52">DigitalMusicAnalysis.wavefile.wavefile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1wavefile_1ab2b57d39353fae11cf5dff952c5d7461" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DigitalMusicAnalysis.wavefile.BitsPerSample</definition>
+        <argsstring></argsstring>
+        <name>BitsPerSample</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" line="19" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1wavefile_1abc31aa124f74f67513d99e5cd621a15e" compoundref="wavefile_8cs" startline="23" endline="52">DigitalMusicAnalysis.wavefile.wavefile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1wavefile_1a6fc9f12709889c677707b673427a0bf5" prot="public" static="no" mutable="no">
+        <type>char[]</type>
+        <definition>char [] DigitalMusicAnalysis.wavefile.Subchunk2ID</definition>
+        <argsstring></argsstring>
+        <name>Subchunk2ID</name>
+        <initializer>= new char[4]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" line="20" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1wavefile_1abc31aa124f74f67513d99e5cd621a15e" compoundref="wavefile_8cs" startline="23" endline="52">DigitalMusicAnalysis.wavefile.wavefile</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_digital_music_analysis_1_1wavefile_1a8459e96511638962091cfff89dadab50" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DigitalMusicAnalysis.wavefile.Subchunk2Size</definition>
+        <argsstring></argsstring>
+        <name>Subchunk2Size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" line="21" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_digital_music_analysis_1_1wavefile_1abc31aa124f74f67513d99e5cd621a15e" compoundref="wavefile_8cs" startline="23" endline="52">DigitalMusicAnalysis.wavefile.wavefile</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_digital_music_analysis_1_1wavefile_1abc31aa124f74f67513d99e5cd621a15e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DigitalMusicAnalysis.wavefile.wavefile</definition>
+        <argsstring>(FileStream file)</argsstring>
+        <name>wavefile</name>
+        <param>
+          <type>FileStream</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" line="23" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" bodystart="23" bodyend="52"/>
+        <references refid="class_digital_music_analysis_1_1wavefile_1aaeed5c50f5e4508115f837c652a0d292" compoundref="wavefile_8cs" startline="14">DigitalMusicAnalysis.wavefile.AudioFormat</references>
+        <references refid="class_digital_music_analysis_1_1wavefile_1ab2b57d39353fae11cf5dff952c5d7461" compoundref="wavefile_8cs" startline="19">DigitalMusicAnalysis.wavefile.BitsPerSample</references>
+        <references refid="class_digital_music_analysis_1_1wavefile_1a5fac63309b1636c6c01aaf6b5c962506" compoundref="wavefile_8cs" startline="18">DigitalMusicAnalysis.wavefile.BlockAlign</references>
+        <references refid="class_digital_music_analysis_1_1wavefile_1ada482cae02f61dea1acdfcb5b8274074" compoundref="wavefile_8cs" startline="17">DigitalMusicAnalysis.wavefile.ByteRate</references>
+        <references refid="class_digital_music_analysis_1_1wavefile_1ae398b30cb6bae0f4d8f512fe670d7ad6" compoundref="wavefile_8cs" startline="9">DigitalMusicAnalysis.wavefile.ChunkID</references>
+        <references refid="class_digital_music_analysis_1_1wavefile_1a305051ec2ad07bd3defd0bacab41aafe" compoundref="wavefile_8cs" startline="10">DigitalMusicAnalysis.wavefile.ChunkSize</references>
+        <references refid="class_digital_music_analysis_1_1wavefile_1a815bee04117f42c0a92c8a1bdddffa6c" compoundref="wavefile_8cs" startline="8">DigitalMusicAnalysis.wavefile.data</references>
+        <references refid="class_digital_music_analysis_1_1wavefile_1a57f503a4b0b4d86a02fc0005d8641e69" compoundref="wavefile_8cs" startline="11">DigitalMusicAnalysis.wavefile.Format</references>
+        <references refid="class_digital_music_analysis_1_1wavefile_1af2331e63a8c19f5019ef6099e45c3a26" compoundref="wavefile_8cs" startline="15">DigitalMusicAnalysis.wavefile.NumChannels</references>
+        <references refid="class_digital_music_analysis_1_1wavefile_1ad4896a6888f13af6a8f4a6b5e9270689" compoundref="wavefile_8cs" startline="16">DigitalMusicAnalysis.wavefile.SampleRate</references>
+        <references refid="class_digital_music_analysis_1_1wavefile_1a29f33e242237e84947416e05e91db1d1" compoundref="wavefile_8cs" startline="12">DigitalMusicAnalysis.wavefile.Subchunk1ID</references>
+        <references refid="class_digital_music_analysis_1_1wavefile_1acb7d6aebbe20185ff15b199d65690421" compoundref="wavefile_8cs" startline="13">DigitalMusicAnalysis.wavefile.Subchunk1Size</references>
+        <references refid="class_digital_music_analysis_1_1wavefile_1a6fc9f12709889c677707b673427a0bf5" compoundref="wavefile_8cs" startline="20">DigitalMusicAnalysis.wavefile.Subchunk2ID</references>
+        <references refid="class_digital_music_analysis_1_1wavefile_1a8459e96511638962091cfff89dadab50" compoundref="wavefile_8cs" startline="21">DigitalMusicAnalysis.wavefile.Subchunk2Size</references>
+        <references refid="class_digital_music_analysis_1_1wavefile_1abeb0370f0261a47ecc51f75c6606bb08" compoundref="wavefile_8cs" startline="7">DigitalMusicAnalysis.wavefile.wave</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" line="6" column="1" bodyfile="C:/Users/Nicho/OneDrive/Documents/CAB401/Assignment1/DigitalMusicAnalysis/wavefile.cs" bodystart="5" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_digital_music_analysis_1_1wavefile_1aaeed5c50f5e4508115f837c652a0d292" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::wavefile</scope><name>AudioFormat</name></member>
+      <member refid="class_digital_music_analysis_1_1wavefile_1ab2b57d39353fae11cf5dff952c5d7461" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::wavefile</scope><name>BitsPerSample</name></member>
+      <member refid="class_digital_music_analysis_1_1wavefile_1a5fac63309b1636c6c01aaf6b5c962506" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::wavefile</scope><name>BlockAlign</name></member>
+      <member refid="class_digital_music_analysis_1_1wavefile_1ada482cae02f61dea1acdfcb5b8274074" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::wavefile</scope><name>ByteRate</name></member>
+      <member refid="class_digital_music_analysis_1_1wavefile_1ae398b30cb6bae0f4d8f512fe670d7ad6" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::wavefile</scope><name>ChunkID</name></member>
+      <member refid="class_digital_music_analysis_1_1wavefile_1a305051ec2ad07bd3defd0bacab41aafe" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::wavefile</scope><name>ChunkSize</name></member>
+      <member refid="class_digital_music_analysis_1_1wavefile_1a815bee04117f42c0a92c8a1bdddffa6c" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::wavefile</scope><name>data</name></member>
+      <member refid="class_digital_music_analysis_1_1wavefile_1a57f503a4b0b4d86a02fc0005d8641e69" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::wavefile</scope><name>Format</name></member>
+      <member refid="class_digital_music_analysis_1_1wavefile_1af2331e63a8c19f5019ef6099e45c3a26" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::wavefile</scope><name>NumChannels</name></member>
+      <member refid="class_digital_music_analysis_1_1wavefile_1ad4896a6888f13af6a8f4a6b5e9270689" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::wavefile</scope><name>SampleRate</name></member>
+      <member refid="class_digital_music_analysis_1_1wavefile_1a29f33e242237e84947416e05e91db1d1" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::wavefile</scope><name>Subchunk1ID</name></member>
+      <member refid="class_digital_music_analysis_1_1wavefile_1acb7d6aebbe20185ff15b199d65690421" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::wavefile</scope><name>Subchunk1Size</name></member>
+      <member refid="class_digital_music_analysis_1_1wavefile_1a6fc9f12709889c677707b673427a0bf5" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::wavefile</scope><name>Subchunk2ID</name></member>
+      <member refid="class_digital_music_analysis_1_1wavefile_1a8459e96511638962091cfff89dadab50" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::wavefile</scope><name>Subchunk2Size</name></member>
+      <member refid="class_digital_music_analysis_1_1wavefile_1abeb0370f0261a47ecc51f75c6606bb08" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::wavefile</scope><name>wave</name></member>
+      <member refid="class_digital_music_analysis_1_1wavefile_1abc31aa124f74f67513d99e5cd621a15e" prot="public" virt="non-virtual"><scope>DigitalMusicAnalysis::wavefile</scope><name>wavefile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
